@@ -1,4 +1,5 @@
 import pdfplumber
+# Install pdfplumber using >>> pip install pdfplumber <<< or use a different library like PyPDF2
 import re
 import json
 
@@ -46,7 +47,7 @@ def save_to_json(data, filename="parsed_resume.json"):
 
 
 if __name__ == "__main__":
-    resume_file = Add the path to your RESUME HERE $$$$$$
+    resume_file = r'./John_Doe_CV.pdf'   # Add the path to your RESUME HERE $$$$$$
 
     print("🔍 Parsing resume:", resume_file)
     text = extract_text_from_pdf(resume_file)
@@ -62,4 +63,5 @@ if __name__ == "__main__":
 
     save_to_json(parsed_data)
     print(" Parsed Data:", parsed_data)
+
 
