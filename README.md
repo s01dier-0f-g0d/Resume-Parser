@@ -24,9 +24,9 @@ pip install pdfplumber
 
 # 📂 Project Structure
 resume-parser/
-main1.py  ---->  Main script
-resume.pdf  ---->  Sample resume (replace with your own)
-parsed_resume.json  ----->  Output file
+main1.py --> Main Script
+resume.pdf --> Your Resume
+parsed_resume.json --> Output
 README.md
 
 # ▶️ How to Run
