@@ -32,7 +32,7 @@ def extract_skills(text):
     for skill in skills_db:
         if skill.lower() in text.lower():
             found.append(skill)
-    return list(set(found))  # remove duplicates
+    return list(set(found))
 
 
 # -------------------------
@@ -46,7 +46,7 @@ def save_to_json(data, filename="parsed_resume.json"):
 
 
 if __name__ == "__main__":
-    resume_file = r'E:\Python practice\Resume Parser\DarshanM-Resume.pdf'
+    resume_file = Add the path to your RESUME HERE $$$$$$
 
     print("🔍 Parsing resume:", resume_file)
     text = extract_text_from_pdf(resume_file)
@@ -62,3 +62,4 @@ if __name__ == "__main__":
 
     save_to_json(parsed_data)
     print(" Parsed Data:", parsed_data)
+
