@@ -22,13 +22,6 @@ Install dependencies:
 
 pip install pdfplumber
 
-# 📂 Project Structure
-resume-parser/
-main1.py --> Main Script
-resume.pdf --> Your Resume
-parsed_resume.json --> Output
-README.md
-
 # ▶️ How to Run
 
 Clone or download the repository.
